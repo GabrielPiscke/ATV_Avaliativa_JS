@@ -7,13 +7,26 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <label for="num1">Numero: </label>
-    <input type="number" id="num1">
+    <select name="selecionaProduto" id="selecionaProduto">
+        <option value="Café">Café</option>
+        <option value="Leite">Leite</option>
+        <option value="Manteiga">Manteiga</option>
+        <option value="Biscoito">Biscoito</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Água">Água</option>
+        <option value="Refrigerante">Refrigerante</option>
+        <option value="Arroz">Arroz</option>
+        <option value="Macarrão">Macarrão</option>
+        <option value="Feijão">Feijão</option>
+    </select>
     <br>
-    <label for="num2">Numero: </label>
-    <input type="number" id="num2">
+    <label for="quantidade">Quantidade: </label>
+    <input type="number" id="quantidade">
     <br>
-    <button id="calcularBtn">Calcular Múltiplos</button>
+    <label for="preco">Preço Unitário: </label>
+    <input type="number" id="preco">
+    <br>
+    <button id="calcularBtn">Calcular</button>
     <br>
     <p id="saida"></p>
 </body>
